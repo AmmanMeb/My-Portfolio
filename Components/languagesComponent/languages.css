@@ -1,0 +1,61 @@
+.index-banner-3 {
+  background-color: white;
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400%;
+  background-attachment: fixed;
+  height: calc(80vh - 100px);
+}
+
+.img-1 {
+  position: relative;
+  right: 24vh;
+  top: 5vh;
+}
+.img-2 {
+  position: relative;
+  bottom: 9vh;
+}
+.img-3 {
+  position: relative;
+  left: 24vh;
+  bottom: 22vh;
+}
+.img-4 {
+  position: relative;
+  right: 24vh;
+  bottom: 13vh;
+}
+.img-5 {
+  position: relative;
+  right: 0vh;
+  bottom: 30vh;
+}
+.img-6 {
+  position: relative;
+  left: 24vh;
+  bottom: 52vh;
+}
+.img-7 {
+  position: relative;
+  right: 0vh;
+  bottom: 45vh;
+}
+.header-3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.header-4 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  bottom: 35vh;
+}
+.img-8 {
+  position: relative;
+  right: 0vh;
+  bottom: 30vh;
+}
