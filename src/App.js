@@ -1,7 +1,8 @@
 import Header from './Components/headerComponent/header';
 import About from './Components/aboutMeComponent/aboutMe';
 import Details from './Components/detailsComponent/details';
-import Languages from './Components/languagesComponent/languages'
+import Languages from './Components/languagesComponent/languages';
+import Projects from './Components/projectsComponent/projects'
 import './App.css';
 
 
@@ -13,7 +14,8 @@ function App() {
         <Header /> 
         <About />       
         <Details /> 
-        <Languages />      
+        <Languages /> 
+        <Projects />     
       </div>
    
     </div>

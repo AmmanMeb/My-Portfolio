@@ -12,50 +12,53 @@
 
 .img-1 {
   position: relative;
-  right: 24vh;
+  right: -36vh;
   top: 5vh;
 }
 .img-2 {
   position: relative;
   bottom: 9vh;
+  left: 96vh;
 }
 .img-3 {
   position: relative;
-  left: 24vh;
+  left: 154vh;
   bottom: 22vh;
 }
 .img-4 {
   position: relative;
-  right: 24vh;
+  right: -29vh;
   bottom: 13vh;
 }
 .img-5 {
   position: relative;
-  right: 0vh;
+  right: -90vh;
   bottom: 30vh;
 }
 .img-6 {
   position: relative;
-  left: 24vh;
+  left: 154vh;
   bottom: 52vh;
 }
 .img-7 {
   position: relative;
-  right: 0vh;
+  right: -94vh;
   bottom: 45vh;
 }
 .header-3 {
   font-size: 30px;
   font-weight: 700;
+  padding-left: 89vh;
 }
 .header-4 {
   position: relative;
   font-size: 30px;
   font-weight: 700;
   bottom: 35vh;
+  padding-left: 89vh;
 }
 .img-8 {
   position: relative;
-  right: 0vh;
+  right: -92vh;
   bottom: 30vh;
 }

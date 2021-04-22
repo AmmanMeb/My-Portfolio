@@ -1,0 +1,33 @@
+.index-banner-4 {
+  background-color: black;
+  padding-bottom: 78vh;
+  margin-top: 48vh;
+}
+
+.header-5 {
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  bottom: -3vh;
+  padding-left: 89vh;
+  color: white;
+}
+
+.index-boxlink-square-1 {
+  background-image: url(../../img/Dessa.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: calc(25% - 20px) !important;
+  z-index: 99;
+  margin-left: 88vh;
+  padding-bottom: 34vh;
+}
+
+.index-boxlink-square-2 {
+  background-image: url(../../img/SignIn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: calc(25% - 20px) !important;
+}
