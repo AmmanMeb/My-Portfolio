@@ -133,3 +133,142 @@ h3 {
   bottom: 47px;
   margin-bottom: -7vh;
 }
+.github a {
+  text-decoration: none;
+  color: black;
+}
+.github-2 a {
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 900px) {
+  .header-5 {
+    position: relative;
+    font-size: 30px;
+    font-weight: 700;
+    bottom: -3vh;
+    padding-left: 15vh;
+    color: white;
+  }
+
+  .index-boxlink-square-1 {
+    border-radius: 10px;
+    background-image: url(../../img/Dessa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: calc(35% - 2px) !important;
+    z-index: 99;
+    padding-bottom: 29vh;
+    margin-top: 0vh;
+  }
+
+  .index-boxlink-square-2 {
+    border-radius: 10px;
+    background-image: url(../../img/SignIn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: calc(35% - 2px) !important;
+    z-index: 99;
+    padding-bottom: 29vh;
+    margin-top: 0vh;
+  }
+  h3 {
+    color: white;
+    margin-left: 16vh;
+  }
+
+  .title-4 {
+    color: white;
+    margin-left: 19vh;
+  }
+
+  .box {
+    border-radius: 0px;
+    background-color: rgb(73, 73, 73);
+    padding-top: 2px;
+    margin-top: 7vh;
+    margin-left: 0vh;
+    margin-right: 0vh;
+    padding-bottom: 1vh;
+  }
+
+  .html {
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(168, 168, 168);
+    margin-right: 49vh;
+    padding-left: 5px;
+    left: 5vh;
+    top: 8px;
+  }
+
+  .css {
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(168, 168, 168);
+    margin-right: 51vh;
+    padding-left: px;
+    left: 16vh;
+    bottom: 15px;
+  }
+  .js {
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(168, 168, 168);
+    margin-right: 43vh;
+    padding-left: 5px;
+    left: 25vh;
+    bottom: 36px;
+  }
+  .github {
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(168, 168, 168);
+    margin-right: 47vh;
+    padding-left: 5px;
+    left: 43vh;
+    bottom: 57px;
+    margin-bottom: -6vh;
+  }
+  .github a {
+    text-decoration: none;
+    color: black;
+  }
+  .github-2 a {
+    text-decoration: none;
+    color: black;
+  }
+  .github-2 {
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(168, 168, 168);
+    margin-right: 47vh;
+    padding-left: 5px;
+    left: 33vh;
+    bottom: 16px;
+  }
+
+  .node {
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(168, 168, 168);
+    margin-right: 48vh;
+    padding-left: 10px;
+    left: 43vh;
+    bottom: 57px;
+  }
+
+  .mysql {
+    border-radius: 5px;
+    position: relative;
+    background-color: rgb(168, 168, 168);
+    margin-right: 48vh;
+    padding-left: 5px;
+    left: 19vh;
+    bottom: 47px;
+    margin-bottom: -7vh;
+  }
+}

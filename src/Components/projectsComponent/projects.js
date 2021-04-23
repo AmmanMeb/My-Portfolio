@@ -13,8 +13,9 @@ class Projects extends Component {
                 </a>                
                 <div className="html">HTML</div>
                 <div className="css">CSS</div>
-                <div className="js">JAVASCRIPT</div>
-                <div className="github">GITHUB</div>
+                <div className="js">JAVASCRIPT</div>                
+                <div  className="github"><a href="https://github.com/AmmanMeb/Dessa">GITHUB</a></div>
+                
               </div>  
 
                <div className= "box"> 
@@ -27,7 +28,9 @@ class Projects extends Component {
                 <div className="js">JAVASCRIPT</div>
                 <div className="node">NODE</div>
                 <div className="mysql">MYSQL</div>
-                <div className="github-2">GITHUB</div>
+                
+                <div  className="github-2"><a href="https://github.com/AmmanMeb/SignIn">GITHUB</a></div>
+               
               </div>  
                 
         </section>

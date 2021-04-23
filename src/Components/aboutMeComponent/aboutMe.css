@@ -24,3 +24,24 @@
 .text-banner {
   line-height: 60px;
 }
+
+@media only screen and (max-width: 900px) {
+  .header {
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+  .index-banner {
+    background-image: url("../../img/DSC_0329.JPG");
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400%;
+    height: calc(80vh - 100px);
+  }
+}

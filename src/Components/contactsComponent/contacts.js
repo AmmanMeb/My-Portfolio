@@ -7,9 +7,9 @@ class Contacts extends Component {
     return (
         <section>
           <div className = "header-3">CONTACTS</div>
-          <div className = "img-9">
+          <a href="https://www.linkedin.com/in/amman-mebrahtu-9863a6159/" className = "img-9">
             <img src = {linkedin} alt = "Linkedin" width="100" height="100"></img>
-          </div>
+          </a>
         </section>
     )
  }
