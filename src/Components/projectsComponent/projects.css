@@ -1,6 +1,6 @@
 .index-banner-4 {
   background-color: black;
-  padding-bottom: 78vh;
+  padding-bottom: 18vh;
   margin-top: 48vh;
 }
 
@@ -14,20 +14,122 @@
 }
 
 .index-boxlink-square-1 {
+  border-radius: 10px;
   background-image: url(../../img/Dessa.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: calc(25% - 20px) !important;
+  width: calc(65% - 2px) !important;
   z-index: 99;
-  margin-left: 88vh;
-  padding-bottom: 34vh;
+  margin-left: 2vh;
+  padding-bottom: 54vh;
+  margin-top: 2vh;
+  padding-left: 20vh;
+  padding-right: 10vh;
+  margin-right: 9vh;
 }
 
 .index-boxlink-square-2 {
+  border-radius: 10px;
   background-image: url(../../img/SignIn.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: calc(25% - 20px) !important;
+  width: calc(65% - 2px) !important;
+  z-index: 99;
+  margin-left: 2vh;
+  padding-bottom: 54vh;
+  margin-top: 2vh;
+  padding-left: 20vh;
+  padding-right: 10vh;
+  margin-right: 9vh;
+  margin-bottom: 0vh;
+}
+h3 {
+  color: white;
+  margin-left: 36vh;
+}
+
+.title-4 {
+  color: white;
+  margin-left: 42vh;
+}
+
+.box {
+  border-radius: 10px;
+  background-color: rgb(73, 73, 73);
+  padding-top: 2px;
+  margin-top: 7vh;
+  margin-left: 55vh;
+  margin-right: 50vh;
+  padding-bottom: 1vh;
+}
+
+.html {
+  border-radius: 5px;
+  position: relative;
+  background-color: rgb(168, 168, 168);
+  margin-right: 90vh;
+  padding-left: 5px;
+  left: 25vh;
+  top: 8px;
+}
+
+.css {
+  border-radius: 5px;
+  position: relative;
+  background-color: rgb(168, 168, 168);
+  margin-right: 92vh;
+  padding-left: 3px;
+  left: 36vh;
+  bottom: 15px;
+}
+.js {
+  border-radius: 5px;
+  position: relative;
+  background-color: rgb(168, 168, 168);
+  margin-right: 84vh;
+  padding-left: 5px;
+  left: 45vh;
+  bottom: 36px;
+}
+.github {
+  border-radius: 5px;
+  position: relative;
+  background-color: rgb(168, 168, 168);
+  margin-right: 88vh;
+  padding-left: 5px;
+  left: 63vh;
+  bottom: 57px;
+  margin-bottom: -6vh;
+}
+.github-2 {
+  border-radius: 5px;
+  position: relative;
+  background-color: rgb(168, 168, 168);
+  margin-right: 88vh;
+  padding-left: 5px;
+  left: 53vh;
+  bottom: 16px;
+}
+
+.node {
+  border-radius: 5px;
+  position: relative;
+  background-color: rgb(168, 168, 168);
+  margin-right: 88vh;
+  padding-left: 10px;
+  left: 63vh;
+  bottom: 57px;
+}
+
+.mysql {
+  border-radius: 5px;
+  position: relative;
+  background-color: rgb(168, 168, 168);
+  margin-right: 88vh;
+  padding-left: 5px;
+  left: 39vh;
+  bottom: 47px;
+  margin-bottom: -7vh;
 }
