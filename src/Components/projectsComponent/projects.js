@@ -11,10 +11,10 @@ class Projects extends Component {
                 <a href="https://tender-swirles-617c6a.netlify.app/">
                    <div  class="index-boxlink-square-1"> </div>                    
                 </a>                
-                <div className="html">HTML</div>
-                <div className="css">CSS</div>
-                <div className="js">JAVASCRIPT</div>                
-                <div  className="github"><a href="https://github.com/AmmanMeb/Dessa">GITHUB</a></div>
+                <button className="html">HTML</button>
+                <button className="css">CSS</button>
+                <button className="js">JAVASCRIPT</button>                
+                <button className="github"><a href="https://github.com/AmmanMeb/Dessa">GITHUB</a></button>
                 
               </div>  
 
@@ -23,13 +23,13 @@ class Projects extends Component {
                 <a href="https://lucid-poincare-171fdd.netlify.app/">
                    <div  class="index-boxlink-square-2"> </div>                    
                 </a>                
-                <div className="html">HTML</div>
-                <div className="css">CSS</div>
-                <div className="js">JAVASCRIPT</div>
-                <div className="node">NODE</div>
-                <div className="mysql">MYSQL</div>
+                <button className="html">HTML</button>
+                <button className="css">CSS</button>
+                <button className="js">JAVASCRIPT</button>
+                <button className="node">NODE</button>
+                <button className="mysql">MYSQL</button>
                 
-                <div  className="github-2"><a href="https://github.com/AmmanMeb/SignIn">GITHUB</a></div>
+                <button  className="github-2"><a href="https://github.com/AmmanMeb/SignIn">GITHUB</a></button>
                
               </div>  
                 

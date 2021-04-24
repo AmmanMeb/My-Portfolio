@@ -73,6 +73,7 @@ h3 {
   padding-left: 5px;
   left: 25vh;
   top: 8px;
+  border: none;
 }
 
 .css {
@@ -82,7 +83,8 @@ h3 {
   margin-right: 90vh;
   padding-left: 3px;
   left: 36vh;
-  bottom: 15px;
+  bottom: 13px;
+  border: none;
 }
 .js {
   border-radius: 5px;
@@ -92,6 +94,7 @@ h3 {
   padding-left: 5px;
   left: 45vh;
   bottom: 36px;
+  border: none;
 }
 .github {
   border-radius: 5px;
@@ -100,8 +103,9 @@ h3 {
   margin-right: 86vh;
   padding-left: 5px;
   left: 63vh;
-  bottom: 57px;
+  bottom: 59px;
   margin-bottom: -6vh;
+  border: none;
 }
 .github-2 {
   border-radius: 5px;
@@ -110,7 +114,8 @@ h3 {
   margin-right: 86vh;
   padding-left: 5px;
   left: 53vh;
-  bottom: 16px;
+  bottom: 69px;
+  border: none;
 }
 
 .node {
@@ -120,7 +125,8 @@ h3 {
   margin-right: 86vh;
   padding-left: 10px;
   left: 63vh;
-  bottom: 57px;
+  bottom: 60px;
+  border: none;
 }
 
 .mysql {
@@ -128,10 +134,11 @@ h3 {
   position: relative;
   background-color: rgb(168, 168, 168);
   margin-right: 86vh;
-  padding-left: 5px;
+  margin-left: -10px;
   left: 39vh;
   bottom: 47px;
   margin-bottom: -7vh;
+  border: none;
 }
 .github a {
   text-decoration: none;
@@ -199,39 +206,43 @@ h3 {
     border-radius: 5px;
     position: relative;
     background-color: rgb(168, 168, 168);
-    margin-right: 49vh;
+    margin-right: 43vh;
     padding-left: 5px;
     left: 5vh;
     top: 8px;
+    border: none;
   }
 
   .css {
     border-radius: 5px;
     position: relative;
     background-color: rgb(168, 168, 168);
-    margin-right: 51vh;
+    margin-right: 46vh;
     padding-left: px;
     left: 16vh;
     bottom: 15px;
+    border: none;
   }
   .js {
     border-radius: 5px;
     position: relative;
     background-color: rgb(168, 168, 168);
-    margin-right: 43vh;
+    margin-right: 39vh;
     padding-left: 5px;
     left: 25vh;
-    bottom: 36px;
+    bottom: 37px;
+    border: none;
   }
   .github {
     border-radius: 5px;
     position: relative;
     background-color: rgb(168, 168, 168);
-    margin-right: 47vh;
+    margin-right: 42vh;
     padding-left: 5px;
     left: 43vh;
-    bottom: 57px;
+    bottom: 61px;
     margin-bottom: -6vh;
+    border: none;
   }
   .github a {
     text-decoration: none;
@@ -248,7 +259,8 @@ h3 {
     margin-right: 47vh;
     padding-left: 5px;
     left: 33vh;
-    bottom: 16px;
+    bottom: 69px;
+    border: none;
   }
 
   .node {
@@ -258,7 +270,8 @@ h3 {
     margin-right: 48vh;
     padding-left: 10px;
     left: 43vh;
-    bottom: 57px;
+    bottom: 60px;
+    border: none;
   }
 
   .mysql {
@@ -269,6 +282,7 @@ h3 {
     padding-left: 5px;
     left: 19vh;
     bottom: 47px;
-    margin-bottom: -7vh;
+    margin-bottom: -6vh;
+    border: none;
   }
 }
