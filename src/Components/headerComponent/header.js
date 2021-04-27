@@ -8,7 +8,10 @@ class Header extends Component {
       <header>        
          
         <a className="title">
-            MY PORTFOLIO
+             <li className="about"><a href="#">ABOUT ME</a></li>
+             <li className="skills"><a href="#">SKILLS</a></li>
+             <li className="projects"><a href="#">PROJECTS</a></li>
+             <li className="contacts"><a href="#">CONTACTS</a></li>
         </a>
             
        

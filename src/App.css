@@ -2,3 +2,12 @@
   overflow-x: hidden;
   position: relative;
 }
+
+.sticky {
+  position: fixed;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+  color: white;
+}
