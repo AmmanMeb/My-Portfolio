@@ -25,6 +25,24 @@
   line-height: 60px;
 }
 
+p {
+  position: relative;
+  font-size: 48px;
+  font-style: italic;
+  padding-left: 35%;
+}
+.line {
+  position: relative;
+  width: 30px;
+  height: 3px;
+  background: rgb(255, 255, 255);
+  margin: 5px;
+  padding-left: 40%;
+  margin-left: 28%;
+  margin-top: -25px;
+  margin-bottom: -25px;
+}
+
 @media only screen and (max-width: 900px) {
   .header {
     font-family: sans-serif;

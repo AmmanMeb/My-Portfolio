@@ -33,12 +33,10 @@ function App() {
     function myFunctionForResponsive() {
       navbar.classList.toggle('responsive');
     }
-  })
+  }) 
   return (
     <div className="App">
-          
-      <div className="App">
-        <div class="topnav" id="myTopnav">
+        <div className="topnav" id="myTopnav">
          <Header /> 
         </div>
         <div className="content">
@@ -47,8 +45,7 @@ function App() {
          <Languages /> 
          <Projects />  
          <Contacts />
-        </div>   
-      </div>
+        </div>  
    
     </div>
   );

@@ -1,5 +1,5 @@
 .App {
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
 }
 
@@ -8,6 +8,14 @@
 }
 
 .sticky + .content {
-  padding-top: 102px;
+  padding-top: 112px;
   color: white;
+}
+
+.topnav {
+  padding-top: 2vh;
+  padding-bottom: 70px;
+  background-color: white;
+  z-index: 99;
+  padding-right: 100%;
 }

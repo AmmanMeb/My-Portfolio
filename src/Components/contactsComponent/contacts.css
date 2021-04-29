@@ -4,6 +4,9 @@
   top: 14vh;
   padding-bottom: 15vh;
 }
+section {
+  padding-bottom: 77vh;
+}
 
 @media only screen and (max-width: 900px) {
   .img-9 {

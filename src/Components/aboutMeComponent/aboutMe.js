@@ -8,8 +8,10 @@ class About extends Component {
       <section className = "index-banner">
         <text className = "text-banner">
           <div className = "header">
-              MY NAME IS AMMAN MEBRAHTU
-          </div>          
+              AMMAN MEBRAHTU
+          </div>
+          <div className="line"></div>
+          <p>Front End Developer</p>          
         </text>
       </section>
     )
