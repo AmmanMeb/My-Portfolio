@@ -1,123 +1,110 @@
 .index-banner-3 {
   background-color: white;
   position: relative;
-  opacity: 0.7;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 400%;
   background-attachment: fixed;
   height: calc(80vh - 100px);
+  padding-bottom: 66vh;
 }
 
-.img-1 {
-  position: relative;
-  right: -36vh;
-  top: 5vh;
+.languages {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 25vh;
+  padding-top: 25vh;
 }
-.img-2 {
-  position: relative;
-  bottom: 9vh;
-  left: 96vh;
+
+.languages-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.img-3 {
-  position: relative;
-  left: 154vh;
-  bottom: 22vh;
-}
-.img-4 {
-  position: relative;
-  right: -29vh;
-  bottom: 13vh;
-}
-.img-5 {
-  position: relative;
-  right: -90vh;
-  bottom: 30vh;
-}
-.img-6 {
-  position: relative;
-  left: 154vh;
-  bottom: 52vh;
-}
-.img-7 {
-  position: relative;
-  right: -94vh;
-  bottom: 45vh;
-}
+
 .header-3 {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 700;
-  padding-left: 89vh;
+  text-align: center;
   color: black;
 }
-.header-4 {
-  position: relative;
-  font-size: 30px;
-  font-weight: 700;
-  bottom: 35vh;
-  padding-left: 89vh;
-}
-.img-8 {
-  position: relative;
-  right: -92vh;
-  bottom: 30vh;
-}
-
 @media only screen and (max-width: 900px) {
   .index-banner-3 {
-    padding-bottom: 19vh;
+    padding-bottom: 36vh;
   }
+
   .img-1 {
-    position: relative;
-    right: -6vh;
-    top: 5vh;
+    width: 108px;
+    height: 108px;
   }
   .img-2 {
-    position: relative;
-    bottom: 9vh;
-    left: 36vh;
+    width: 77px;
+    height: 108px;
   }
   .img-3 {
-    position: relative;
-    left: 7vh;
-    bottom: -3vh;
+    width: 96px;
+    height: 94px;
   }
   .img-4 {
-    position: relative;
-    right: -27vh;
-    bottom: 13vh;
+    width: 140px;
+    height: 83px;
   }
   .img-5 {
-    position: relative;
-    right: -3vh;
-    bottom: 5vh;
+    width: 180px;
+    height: 51px;
   }
   .img-6 {
-    position: relative;
-    left: 34vh;
-    bottom: 30vh;
+    width: 134px;
+    height: 95px;
   }
-  .img-7 {
-    position: relative;
-    right: -21vh;
-    bottom: 25vh;
-  }
+
   .header-3 {
     font-size: 30px;
     font-weight: 700;
-    padding-left: 17vh;
+    text-align: center;
   }
-  .header-4 {
-    position: relative;
-    font-size: 30px;
+  .languages {
+    padding-bottom: 16vh;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .index-banner-3 {
+    padding-bottom: 20vh;
+  }
+
+  .img-1 {
+    width: 63px;
+    height: 65px;
+  }
+  .img-2 {
+    width: 46px;
+    height: 65px;
+  }
+  .img-3 {
+    width: 59px;
+    height: 59px;
+  }
+  .img-4 {
+    width: 107px;
+    height: 66px;
+  }
+  .img-5 {
+    width: 147px;
+    height: 39px;
+  }
+  .img-6 {
+    width: 78px;
+    height: 51px;
+  }
+
+  .header-3 {
+    font-size: 20px;
     font-weight: 700;
-    bottom: 20vh;
-    padding-left: 17vh;
+    text-align: center;
   }
-  .img-8 {
-    position: relative;
-    right: -19vh;
-    bottom: 16vh;
+  .languages {
+    padding-bottom: 6vh;
   }
 }

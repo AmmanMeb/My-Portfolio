@@ -1,13 +1,15 @@
 .index-banner {
   background-image: url("../../img/DSC_0329.JPG");
   position: relative;
-  opacity: 0.7;
+  opacity: 100;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 400%;
   background-attachment: fixed;
-  height: calc(80vh - 100px);
+  height: calc(30vh - 200px);
+  top: -6vh;
+  margin-bottom: -6vh;
+  padding-bottom: 96vh;
 }
 
 .header {
@@ -26,13 +28,13 @@
 }
 
 p {
-  position: relative;
+  text-align: center;
   font-size: 48px;
   font-style: italic;
-  padding-left: 35%;
+  color: rgb(255, 255, 255);
 }
 .line {
-  position: relative;
+  text-align: center;
   width: 30px;
   height: 3px;
   background: rgb(255, 255, 255);
@@ -48,18 +50,75 @@ p {
     font-family: sans-serif;
     font-weight: 700;
     line-height: 50px;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-align: center;
+    padding-top: 36vh;
   }
   .index-banner {
     background-image: url("../../img/DSC_0329.JPG");
     position: relative;
-    opacity: 0.7;
+    opacity: 100;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 400%;
-    height: calc(80vh - 100px);
+    height: calc(30vh - 200px);
+  }
+
+  p {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+  }
+  .line {
+    text-align: center;
+    width: 30px;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    margin: 5px;
+    padding-left: 50%;
+    margin-left: 20%;
+    margin-top: -25px;
+    margin-bottom: -25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 36vh;
+  }
+  .index-banner {
+    background-image: url("../../img/DSC_0329.JPG");
+    position: relative;
+    opacity: 100;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(30vh - 200px);
+  }
+
+  p {
+    text-align: center;
+    font-size: 28px;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+  }
+  .line {
+    text-align: center;
+    width: 30px;
+    height: 1px;
+    background: rgb(255, 255, 255);
+    margin: 5px;
+    padding-left: 50%;
+    margin-left: 20%;
+    margin-top: -25px;
+    margin-bottom: -25px;
   }
 }
