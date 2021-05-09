@@ -10,13 +10,13 @@ class Contacts extends Component {
         <section id = "contacts">
           <div className = "header-3">CONTACTS</div>
           <div className = "division">
-            <a href="https://www.linkedin.com/in/amman-mebrahtu-9863a6159/" className = "img-9">
+            <a href="https://github.com/AmmanMeb" className = "img-9">
               <img className = "img-7" src = {github} alt = "Github" width="100" height="100"></img>
             </a>
            <a href="https://www.linkedin.com/in/amman-mebrahtu-9863a6159/" className = "img-9">
              <img className = "img-8" src = {linkedin} alt = "Linkedin" width="100" height="100"></img>
            </a>
-           <a href="https://www.linkedin.com/in/amman-mebrahtu-9863a6159/" className = "img-9">
+           <a href="mailto:amebrahtu1997@yahoo.com" className = "img-9">
               <img className = "img-9" src = {yahoo} alt = "Yahoo" width="100" height="100"></img>
             </a>
           </div>
