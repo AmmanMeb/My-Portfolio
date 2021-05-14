@@ -12,8 +12,7 @@ class Projects extends Component {
             <div className="header-5" >MY PROJECTS</div> 
             <div className="projects">  
                 <a className="example">
-                <div className ="title-4">Coming Soon Page</div>
-                  <img className="pics" src = {dessa} alt = "Dessa" width="319" height="319" />
+                  <img className="pics" src = {dessa} alt = "Dessa"  />
                      <div className="content">
                         <div className="title-5">
                            Coming Soon Page   
@@ -31,8 +30,7 @@ class Projects extends Component {
                                     
                 </a> 
                 <a className="example">
-                   <div className ="title-4">Sign In Page</div>
-                  <img className="pics" src = {signin} alt = "SignIn" width="319" height="319" />
+                  <img className="pics" src = {signin} alt = "SignIn" />
                   <div className="content">
                         <div className="title-5">
                            Sign In Page   

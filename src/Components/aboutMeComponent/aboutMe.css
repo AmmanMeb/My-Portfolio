@@ -5,10 +5,8 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  height: calc(30vh - 200px);
-  top: -6vh;
-  margin-bottom: -6vh;
-  padding-bottom: 96vh;
+  top: 100%;
+  padding-bottom: 20%;
 }
 
 .header {
@@ -19,7 +17,7 @@
   color: white;
   text-align: center;
   padding-bottom: 50px;
-  padding-top: 180px;
+  padding-top: 20%;
 }
 
 .text-banner {
@@ -61,7 +59,8 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(30vh - 200px);
+    top: 100%;
+    padding-bottom: 20%;
   }
 
   p {
@@ -100,7 +99,8 @@ p {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(30vh - 200px);
+    top: 100%;
+    padding-bottom: 20%;
   }
 
   p {

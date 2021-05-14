@@ -1,12 +1,5 @@
 .index-banner-3 {
   background-color: white;
-  position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 400%;
-  background-attachment: fixed;
-  height: calc(80vh - 100px);
   padding-bottom: 66vh;
 }
 
