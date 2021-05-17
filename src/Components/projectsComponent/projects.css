@@ -70,9 +70,10 @@
 }
 
 .title-5 {
+  position: relative;
   font-weight: bold;
   font-size: 20px;
-  padding-bottom: 11vh;
+  padding-bottom: 40%;
   padding-top: 3vh;
   opacity: 1;
   transition-delay: 0s;
@@ -91,6 +92,7 @@
 }
 
 .p {
+  position: relative;
   opacity: 1;
   transition-delay: 0s;
   transition-duration: 0.4s;
@@ -135,7 +137,7 @@
   .title-5 {
     font-weight: bold;
     font-size: 20px;
-    padding-bottom: 17vh;
+    padding-bottom: 40%;
     padding-top: 0vh;
     opacity: 1;
     transition-delay: 0s;
@@ -143,8 +145,8 @@
   }
 
   .p {
-    font-size: 17px;
-    margin-bottom: -7vh;
+    font-size: 14px;
+    margin-bottom: 0vh;
   }
   .header-5 {
     text-align: center;
@@ -204,7 +206,7 @@
   .content {
     border-radius: 10px;
     opacity: 0;
-    font-size: 14px;
+    font-size: 11px;
     position: absolute;
     top: 0px;
     left: 0;
@@ -228,7 +230,7 @@
   .title-5 {
     font-weight: bold;
     font-size: 10px;
-    padding-bottom: 14vh;
+    padding-bottom: 60%;
     padding-top: 0vh;
     opacity: 1;
     transition-delay: 0s;
@@ -236,7 +238,7 @@
   }
 
   .p {
-    font-size: 10px;
+    font-size: 7px;
     margin-bottom: -7vh;
   }
   .header-5 {
@@ -290,5 +292,8 @@
   .projects {
     display: flex;
     align-items: center;
+  }
+  a {
+    z-index: 1;
   }
 }
