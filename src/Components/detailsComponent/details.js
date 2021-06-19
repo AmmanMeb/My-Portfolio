@@ -7,7 +7,10 @@ class Details extends Component {
     return (
       <section className = "index-banner-2" id = "aboutme">       
           <div className = "header-2">
-          My name is Amman Mebrahtu, I graduated from of Central Piedmont Community College with a degree on Simulation and Game Development. I started teaching myself Web Development because I like to learn new skills and challenge myself. I also learned it because I love to create and design and I am passionate about my creations being interacted with by other people
+          My name is Amman Mebrahtu, I graduated from of Central Piedmont Community College with a degree on Simulation and 
+          Game Development. I started teaching myself Web Development as I wanted to challenge myself and learn new skills,
+          as well as to create and design beautiful and interactive websites. I am eager to join an industry where people
+          would get to interact with my creations and use it daily. 
           </div>
       </section>
     )
