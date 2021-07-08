@@ -1,21 +1,23 @@
-import About from './Components/aboutMeComponent/aboutMe';
-import Details from './Components/detailsComponent/details';
-import Languages from './Components/languagesComponent/languages';
-import Projects from './Components/projectsComponent/projects'
-import Contacts from './Components/contactsComponent/contacts';
 import './App.css';
+import {BrowserRouter as Router, Route} from 'react-router-dom' 
+import React, { Component } from 'react';
+import Account from './components/mainComponent/main';
+import SignIn from './components/signingIn/signIn';
 
-function App() {
- 
-  return (
-    <div className="App">        
-         <About />       
-         <Details /> 
-         <Languages /> 
-         <Projects />  
-         <Contacts />       
-    </div>
-  );
+
+
+class App extends Component {
+  render() {
+    return (
+    <Router>      
+      <div className="App">
+        <Route exact path = '/' component={Account}/>
+        <Route path="/SignIn" component={SignIn}/>
+
+      </div>
+    </Router>
+    )
+  }
 }
 
 export default App;
