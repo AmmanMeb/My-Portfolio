@@ -1,0 +1,299 @@
+.index-banner-4 {
+  background-color: black;
+  padding-bottom: 18vh;
+  margin-top: 0vh;
+}
+
+.header-5 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  bottom: -3vh;
+  color: white;
+}
+.projects {
+  margin-top: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 9;
+}
+
+.pics {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.example {
+  position: relative;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.content {
+  border-radius: 10px;
+  opacity: 0;
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: #000000;
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 400ms ease-out;
+  -moz-transition: all 400ms ease-out;
+  -o-transition: all 400ms ease-out;
+  -ms-transition: all 400ms ease-out;
+  transition: all 400ms ease-out;
+  text-align: center;
+}
+
+.example .content:hover {
+  opacity: 1;
+}
+
+.title-4 {
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 3vh;
+  padding-top: 0vh;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  color: white;
+  text-align: center;
+}
+
+.title-5 {
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 40%;
+  padding-top: 3vh;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  text-align: center;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-5 {
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
+.p {
+  position: relative;
+  opacity: 1;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+}
+
+.example .content:hover .title-5 {
+  opacity: 1;
+  transform: translateY(25px);
+  -webkit-transform: translateY(25px);
+}
+
+.example .content:hover .p {
+  opacity: 1;
+  transform: translateY(995px);
+  -webkit-transform: translateY(-55px);
+}
+@media only screen and (max-width: 900px) {
+  .content {
+    border-radius: 10px;
+    opacity: 0;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .title-4 {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .title-5 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 40%;
+    padding-top: 0vh;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+  }
+
+  .p {
+    font-size: 14px;
+    margin-bottom: 0vh;
+  }
+  .header-5 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    bottom: -3vh;
+    color: white;
+  }
+
+  .index-boxlink-square-1 {
+    border-radius: 10px;
+    background-image: url(../../img/Dessa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: calc(35% - 2px) !important;
+    z-index: 99;
+    padding-bottom: 29vh;
+    margin-top: 0vh;
+  }
+
+  .index-boxlink-square-2 {
+    border-radius: 10px;
+    background-image: url(../../img/SignIn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: calc(35% - 2px) !important;
+    z-index: 99;
+    padding-bottom: 29vh;
+    margin-top: 0vh;
+  }
+
+  .github-2 {
+    width: 46px;
+    height: 46px;
+  }
+  .links {
+    top: 2vh;
+  }
+  .pics {
+    width: 250px;
+    height: 250px;
+  }
+
+  .redirect {
+    width: 46px;
+    height: 46px;
+  }
+  .projects {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .content {
+    border-radius: 10px;
+    opacity: 0;
+    font-size: 11px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+  }
+  .title-4 {
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .title-5 {
+    font-weight: bold;
+    font-size: 10px;
+    padding-bottom: 60%;
+    padding-top: 0vh;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+  }
+
+  .p {
+    font-size: 7px;
+    margin-bottom: -11%;
+  }
+  .header-5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: -3vh;
+    color: white;
+  }
+
+  .index-boxlink-square-1 {
+    border-radius: 10px;
+    background-image: url(../../img/Dessa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: calc(35% - 2px) !important;
+    z-index: 99;
+    padding-bottom: 29vh;
+    margin-top: 0vh;
+  }
+
+  .index-boxlink-square-2 {
+    border-radius: 10px;
+    background-image: url(../../img/SignIn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: calc(35% - 2px) !important;
+    z-index: 99;
+    padding-bottom: 29vh;
+    margin-top: 0vh;
+  }
+
+  .github-2 {
+    width: 36px;
+    height: 36px;
+  }
+  .links {
+    top: 2vh;
+  }
+  .pics {
+    width: 150px;
+    height: 150px;
+  }
+
+  .redirect {
+    width: 36px;
+    height: 36px;
+  }
+  .projects {
+    display: flex;
+    align-items: center;
+  }
+  a {
+    z-index: 1;
+  }
+}
