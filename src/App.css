@@ -1,6 +1,4 @@
-@media only screen and (max-width: 800px) {
-  .App {
-    overflow-x: hidden;
-    position: relative;
-  }
+.App {
+  overflow: hidden;
+  position: relative;
 }
