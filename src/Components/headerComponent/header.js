@@ -7,10 +7,10 @@ class Header extends Component {
     return (
       <header>                   
              <ul class="title">
-                 <li><a href="#">ABOUT ME</a></li>
-                 <li><a href="#">SKILLS</a></li>
-                 <li><a href="#">PROJECTS</a></li>
-                 <li><a href="#">CONTACTS</a></li>
+                 <li><a href="#aboutme">ABOUT ME</a></li>
+                 <li><a href="#skills">SKILLS</a></li>
+                 <li><a href="#projects">PROJECTS</a></li>
+                 <li><a href="#contacts">CONTACTS</a></li>
               </ul>         
      </header>
     )
